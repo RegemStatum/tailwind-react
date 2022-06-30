@@ -5,16 +5,18 @@ import SubscriptionForm from "./newsletter/SubscriptionForm";
 
 const NewsletterSection = () => {
   return (
-    <Section
-      heading="Newsletter"
-      description="Most calendars are designed for teams. 
+    <div className="overflow-hidden">
+      <Section
+        heading="Newsletter"
+        description="Most calendars are designed for teams. 
     Slate is designed for freelancers"
-    >
-      <div className="w-max mx-auto">
-        <Newsletter />
-      </div>
-      <SubscriptionForm />
-    </Section>
+      >
+        <div className="w-max mx-auto">
+          <Newsletter />
+        </div>
+        <SubscriptionForm />
+      </Section>
+    </div>
   );
 };
 

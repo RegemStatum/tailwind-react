@@ -1,6 +1,6 @@
 import React from "react";
-import heroBg from "../../assets/images/hero.png";
-import heroMobBg from "../../assets/images/heroMob.png";
+import heroBg from "../../assets/images/hero.webp";
+import heroMobBg from "../../assets/images/heroMob.webp";
 import { PrimaryButton } from "../ui";
 
 const Hero = () => {
