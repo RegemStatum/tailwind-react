@@ -1,6 +1,6 @@
 import React from "react";
 import SingleFeature from "./SingleFeature";
-import { Icon1, Icon2, Icon3 } from "../../../assets/images/features";
+import { Icon1, Icon2 } from "../../../assets/images/features";
 
 const Features = () => {
   return (
